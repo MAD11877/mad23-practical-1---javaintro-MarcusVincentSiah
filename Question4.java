@@ -19,5 +19,12 @@ public class Question4
      
     Scanner in = new Scanner(System.in);
     
+    int num = int.nextint();
+    
+    while (num > 0){
+      System.out.println("*" * num);
+      num -= 1;
+    }
+    
   }
 }
