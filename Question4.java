@@ -12,7 +12,7 @@ public class Question4
      *     ****
      *     ***
      *     **
-     *     *
+     *     *a
      * 
      * Hint: 2 loops are required. System.out.print(...) to print on single line.
      */
