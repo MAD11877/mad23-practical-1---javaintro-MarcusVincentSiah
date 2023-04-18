@@ -24,7 +24,7 @@ public class Question5
      *     > 2
      *     > 2
      *     > 3
-     *     > 3
+     *     > 32
      *     2
      * Hint: Use a loop to get input. Use another 2 loops to find the mode
      */
