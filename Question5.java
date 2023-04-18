@@ -27,6 +27,34 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    
+    int numoftimes = in.nextInt();
+        ArrayList<Integer> numList = new ArrayList<Integer>();
+
+        int num = 0;
+        while (numoftimes > 0){
+            num = in.nextInt();
+            numoftimes -= 1;
+
+            numList.add(num);
+        }
+
+        int maxcount = 0;
+        int mode = 0;
+        for (int i = 0; i < numList.size(); i++){
+            int count = 0;
+
+            for (int j=0; j < numList.size(); j++){
+                if (numList.get(j) == numList.get(i)){
+                    count += 1;
+                }
+
+                if (count > maxcount){
+                    maxcount = count;
+                    mode = numList.get(i);
+                }
+            }
+        }
+
+        System.out.println(mode);
   }
 }
