@@ -16,6 +16,5 @@ public class Question3
     int total = num * num;
     
     System.out.println(total);
-    /*testing*/
   }
 }
